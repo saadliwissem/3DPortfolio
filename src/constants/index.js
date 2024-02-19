@@ -6,6 +6,7 @@ import ExpressDisplay from "../assets/images/ExpressDisplay.jpg";
 import tak from "../assets/images/tak.jpg";
 
 
+
 import {
     car,
     contact,
@@ -30,7 +31,8 @@ import {
     tailwindcss,
     threads,
     typescript,
-    QR
+    QR,
+    lock
 } from "../assets/icons";
 
 export const skills = [
@@ -197,23 +199,23 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Phacile',
+        description: 'An expo react native application for medicines delivery connected to Express back server and mongoDB database with a react dashboard.',
+        link: 'https://www.youtube.com/watch?v=LuQmF0j0hNs&t=195s',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Users Manager',
+        description: 'Created a full-stack application of users management using Angular and SpringBoot.',
+        link: 'https://github.com/saadliwissem/Springboot-Angular-CRUD',
     },
     {
-        iconUrl: car,
+        iconUrl: lock,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Authentication System',
+        description: 'authentication and authorization system unsing spring security 6 & jwt.',
+        link: 'https://github.com/saadliwissem/springboot3-spring-Security-6-jwt-authentication-authorization',
     },
     {
         iconUrl: QR,

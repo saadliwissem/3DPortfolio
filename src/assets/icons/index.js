@@ -27,6 +27,7 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import QR from './QR.svg'
+import lock from './lock.svg'
 
 
 export {
@@ -58,5 +59,6 @@ export {
     contact,
     soundon,
     soundoff,
-    QR
+    QR,
+    lock
 }
